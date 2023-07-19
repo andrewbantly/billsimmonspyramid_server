@@ -1,4 +1,13 @@
 {
     "message": "Welcome to the Bill Simmons Basketball Pyramid API",
-    "created": "June 19, 2023"
+    "created": "June 19, 2023",
+    "endpoints": [
+        {"end-point": "api/original",
+        "published": "12/07/2010",
+        "source": "The Book of Basketball"},
+        {"end-point": "api/latest",
+        "published": "07/01/2023",
+        "source": "The Bill Simmons Podcast"
+     }
+    ]
 }
