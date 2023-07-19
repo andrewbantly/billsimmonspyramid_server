@@ -9,3 +9,8 @@ def data(request):
     with open('main_app/data/index.json', 'r') as file:
         req_data = json.load(file)
     return JsonResponse(req_data)
+
+def original(request):
+    with open('main_app/data/index.json', 'r') as file:
+        req_data = json.load(file)
+    return JsonResponse(req_data)
