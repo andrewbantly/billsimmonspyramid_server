@@ -11,6 +11,7 @@ def data(request):
     return JsonResponse(req_data)
 
 def original(request):
-    with open('main_app/data/index.json', 'r') as file:
+    with open('main_app/data/original_pyramid.json', 'r') as file:
         req_data = json.load(file)
-    return JsonResponse(req_data)
+    return JsonResponse(req_data, safe=False)
+
